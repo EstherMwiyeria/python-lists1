@@ -41,6 +41,17 @@ varieties.add("Blue")
 varieties.add("Orange")
 print(varieties)
 
+# Dictionaries
+countries = {"Kenya": 254,"Uganda": 256,"Rwanda": 250}
+print(countries["Uganda"])
+countries["Tanzania"] = 256
+print(countries)
+
+cities = {"Nairobi": 47,"Kisumu": 33,"Kigali": 250}
+print(cities["Nairobi"])
+cities["Kisumu"] = 56
+print(cities)
+
 # FUNCTIONS
 # define these additional 4 functions;
 # subtract
